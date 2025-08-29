@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alergia Medicamentosa - Hilly de Brito Pompermayer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card" id="content">
+        <div class="profile">
+            <img src="Imagens/img1.jpg" alt="Foto da Paciente Hilly de Brito Pompermayer">
+        </div>
+
+        <h1><i class="fas fa-notes-medical"></i> Alergia Medicamentosa</h1>
+        <span class="badge"><i class="fas fa-user"></i> Paciente: Hilly de Brito Pompermayer</span>
+        <p><i class="fas fa-birthday-cake"></i> Data de Nascimento: <strong>06/08/1987</strong></p>
+
+        <h2 class="safe"><i class="fas fa-check-circle"></i> Medicações Seguras</h2>
+        <ul class="safe">
+            <li><strong>Para dor ou febre:</strong> <span style="color: #2e7d32;">Paracetamol (Tylenol, Dorico, Eraldor,
+                    Acetofen)</span> ou Cloridrato de benzidamina (Benfognil)</li>
+            <li><strong>Para dores moderadas:</strong> Dividol</li>
+            <li><strong>Para dores fortes:</strong> <span class="riscado-vermelho">Tylex (codeína </span>+ paracetamol),
+                Sylador, Tramal (tramadol)</li>
+            <li><strong>Para dor muscular:</strong> Ciclobenzaprina (Miosan)</li>
+            <li><strong>Para enxaqueca:</strong> Derivados do Ergot (Cefalium, Ormigren, Parcel, Sandomigran)</li>
+            <li><strong>Para gripes:</strong> Claritin D, Naldecon, Loratadina, Allegra D</li>
+            <li><strong>Antibióticos:</strong> Azitromicina / Claritromicina</li>
+            <li><strong>Vômitos:</strong> Ondansetona</li>
+        </ul>
+
+        <h2 class="alert"><i class="fas fa-ban"></i> Medicamentos Proibidos</h2>
+        <ul class="alert">
+            <li>Ácido Acetil Salicílico (AAS) e todas as aspirinas</li>
+            <li>Dipirona (Novalgina, Magnopyrol, etc.)</li>
+            <li>Fenilbutazona (Butazolidina, Moflex)</li>
+            <li>Oxifenilbutazona (Tandear, Tandraman, etc.)</li>
+            <li>Indometacina (Indocid, Algilsin Spray)</li>
+            <li>AINEs (todos)</li>
+            <li>Diclofenaco de Sódio ou Potássio (Cataflan, Voltaren, etc.)</li>
+            <li>Ibuprofeno (Artil, Advil, Motrin, etc.)</li>
+            <li>Cetoprofeno (Profenid, Arttrilid, Algiprofen, etc.)</li>
+            <li>Fenoprofeno (Algiprofen, Trandrob)</li>
+            <li>Napoxeno (Naprosyn, Flanax)</li>
+            <li>Roxicam (Feldene, Anatril, etc.)</li>
+            <li>Meloxicam (Movatec, Movoxicam, etc.)</li>
+            <li>Nimesulida (Antiflogil, Deflogen, etc.)</li>
+        </ul>
+
+        <p class="alert"><i class="fas fa-exclamation-triangle"></i> Observação: Reação tardia à
+            <strong>Codeína</strong>.
+        </p>
+
+        <p class="badge"><i class="fas fa-calendar-alt"></i> Data do Laudo: 19/01/2024</p>
+
+        <button class="btn" id="gerarPdfBtn"><i class="fas fa-download"></i> Salvar este Laudo</button>
+
+        <footer>
+            &copy; 2024 Clínica Médica CLIMPED
+        </footer>
+    </div>
+
+    <!-- No final do body, antes do fechamento </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
